@@ -1,0 +1,4 @@
+GET        /send/:key/:value        com.github.dnvriend.controller.KafkaController.send(key: String, value: String)
+GET        /putonkafka              com.github.dnvriend.controller.KafkaController.putOnKafka
+GET        /stop                    com.github.dnvriend.controller.KafkaController.stop
+GET        /start                   com.github.dnvriend.controller.KafkaController.start
